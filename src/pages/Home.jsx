@@ -1,15 +1,14 @@
-import { useState } from 'react'
+
+import Header from "../components/shared/Header"
+import Footer from "../components/shared/Footer"
+
 
 const Home = () => {
-    const [count, setCount] = useState(0)
   return (
-    <div>
-        <div className="card">
-            <button onClick={() => setCount((count) => count + 1)}>
-                count is {count}
-            </button>
-        </div>
-    </div>
+    <>
+        <Header />
+        <Footer />
+    </>
   )
 }
 

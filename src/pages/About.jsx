@@ -1,10 +1,13 @@
 
+import Header from "../components/shared/Header"
+import Footer from "../components/shared/Footer"
 
 const About = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Header />
+      <Footer />
+    </>
   )
 }
 
