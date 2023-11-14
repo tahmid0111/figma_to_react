@@ -5,17 +5,19 @@ import { NavLink } from "react-router-dom"
 const Header = () => {
   return (
     <>
-      <NavLink to='/'>Home</NavLink>
-      <NavLink to='/team'>Team</NavLink>
-      <NavLink to='/service'>Service</NavLink>
-      <NavLink to='/projects'>Projects</NavLink>
-      <NavLink to='/testimonials'>Testimonials</NavLink>
+      <div className="large-navbar hidden md:block">
+        <NavLink to='/'>Home</NavLink>
+        <NavLink to='/team'>Team</NavLink>
+        <NavLink to='/service'>Service</NavLink>
+        <NavLink to='/projects'>Projects</NavLink>
+        <NavLink to='/testimonials'>Testimonials</NavLink>
 
-            {/* not used yet */}
-      <NavLink to=''>Login</NavLink>
-      <NavLink to=''>Register</NavLink>
+              {/* not used yet */}
+        <NavLink to=''>Login</NavLink>
+        <NavLink to=''>Register</NavLink>
+      </div>
 
-      <div className="navbar-start">
+      <div className="small-navbar md:hidden">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
