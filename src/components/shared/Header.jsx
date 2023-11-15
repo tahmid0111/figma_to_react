@@ -36,7 +36,7 @@ const Header = () => {
                 </button>
               </li>
               <li className="py-8 px-5">
-                <button className="btn btn-outline btn-light">
+                <button className="btn btn-secondary">
                   <NavLink to=''>Register</NavLink>
                 </button>
               </li>
