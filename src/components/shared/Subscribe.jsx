@@ -5,7 +5,7 @@ const Subscribe = () => {
     return (
         <>
             <div className="subscribe-area container mx-auto text-center my-8 py-8">
-                <p className='text-xl text-[#20B15A] font-semibold'>SUBSCRIBE</p>
+                <p className='text-xl text-orange-500 font-semibold'>SUBSCRIBE</p>
 
 
 

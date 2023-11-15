@@ -1,26 +1,65 @@
 import { NavLink } from "react-router-dom"
+import { FaAlignLeft } from "react-icons/fa6";
 
 
 
 const Header = () => {
   return (
     <>
-      <div className="large-navbar hidden md:block">
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='/team'>Team</NavLink>
-        <NavLink to='/service'>Service</NavLink>
-        <NavLink to='/projects'>Projects</NavLink>
-        <NavLink to='/testimonials'>Testimonials</NavLink>
+    <div className="hidden md:block bg-orange-400">
+      <div className="header-area container mx-auto grid grid-cols-12 ">
+          <div className="col-span-2">
+            <h3 className="py-10 text-2xl font-bold text-center">Design<span className="text-white">Agency</span></h3>
+          </div>
 
-              {/* not used yet */}
-        <NavLink to=''>Login</NavLink>
-        <NavLink to=''>Register</NavLink>
-      </div>
+          <div className="col-span-10">
+
+            <ul className="flex float-right">
+              <li className="py-10 px-5">
+                <NavLink to='/' className='text-lg font-semibold'>Home</NavLink>
+              </li>
+              <li className="py-10 px-5">
+                <NavLink to='/team' className='text-lg font-semibold'>Team</NavLink>
+              </li>
+              <li className="py-10 px-5">
+                <NavLink to='/service' className='text-lg font-semibold'>Service</NavLink>
+              </li>
+              <li className="py-10 px-5">
+                <NavLink to='/projects' className='text-lg font-semibold'>Projects</NavLink>
+              </li>
+              <li className="py-10 px-5">
+                <NavLink to='/testimonials' className='text-lg font-semibold'>Testimonials</NavLink>
+              </li>
+              <li className="py-8 px-5">
+                <button className="btn btn-outline btn-primary">
+                  <NavLink to=''>Login</NavLink>
+                </button>
+              </li>
+              <li className="py-8 px-5">
+                <button className="btn btn-outline btn-light">
+                  <NavLink to=''>Register</NavLink>
+                </button>
+              </li>
+            </ul>
+
+            
+            
+            
+            
+            
+
+                  {/* not used yet */}
+            
+            
+
+          </div>
+        </div>
+    </div>
 
       <div className="small-navbar md:hidden">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+          <FaAlignLeft />
           </label>
           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
 
