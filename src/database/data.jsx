@@ -15,7 +15,7 @@ export const homeData = [
     },
 ]
 
-export const workLisk = [
+export const workList = [
     {
         heading: "Work List",
         subHeading: "We provide the Perfect Solution to your business growth",
@@ -23,43 +23,44 @@ export const workLisk = [
     
 ]
 
-export const workLiskcard = {
-    workLiskCard1:{
-        title: "Grow Your Business",
-        discription: "We help identify the best ways to improve your business",
-        img: 'image/Work1.png',
-
-        title2: "Improve brand loyalty",
-        discription2: "We help identify the best ways to improve your business",
-        img2: 'image/Work2.png',
-
-        title3: "Improve Business Model",
-        discription3: "We help identify the best ways to improve your business",
-        img3: 'image/Work3.png'
+export const workListcard = [
+    {
+      title: "Grow Your Business",
+      discription: "We help identify the best ways to improve your business",
+      img: "work/Work1.png"
     },
-    
-}
+    {
+      title: "Improve brand loyalty",
+      discription: "We help identify the best ways to improve your business",
+      img: "work/Work2.png"
+    },
+    {
+      title: "Improve Business Model",
+      discription: "We help identify the best ways to improve your business",
+      img: "work/Work3.png"
+    }
+  ]
 
-export const workListCountcard = {
-    workLiskCard1:{
-        title: "240452",
+export const workListCountcard = [
+
+        { title: "240452",
         discription: "Followers",
-        img: 'image/Work1.png',
+        img: 'work/Work1.png'},
 
-        title2: "6300",
-        discription2: "Problems",
-        img2: 'image/Work2.png',
+        {title: "6300",
+        discription: "Problems",
+        img: 'work/Work2.png'},
 
-        title3: "25000",
-        discription3: "Happy Customers",
-        img3: 'image/Work3.png',
+        {title: "25000",
+        discription: "Happy Customers",
+        img: 'work/Work3.png'},
 
-        title4: "360452",
-        discription4: "Projects",
-        img4: 'image/Work3.png'
-    },
+        {title: "360452",
+        discription: "Projects",
+        img: 'work/Work1.png'}
+]
+
     
-}
 
 export const FeaturedData = {
     Featured:{
