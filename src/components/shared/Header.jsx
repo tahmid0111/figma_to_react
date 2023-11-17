@@ -8,34 +8,34 @@ const Header = () => {
     <>
     <div className="hidden md:block bg-orange-400">
       <div className="header-area container mx-auto grid grid-cols-12 ">
-          <div className="col-span-2">
-            <h3 className="py-10 text-2xl font-bold text-center">Design<span className="text-white">Agency</span></h3>
+          <div className="col-span-4">
+            <h3 className="py-8 xl:py-10 text-2xl font-bold xl:text-center">Design<span className="text-white">Agency</span></h3>
           </div>
 
-          <div className="col-span-10">
+          <div className="col-span-8">
 
             <ul className="flex float-right">
-              <li className="py-10 px-5">
+              <li className="py-10 px-2 lg:px-5">
                 <NavLink to='/' className='text-lg font-semibold'>Home</NavLink>
               </li>
-              <li className="py-10 px-5">
+              <li className="py-10 px-2 lg:px-5">
                 <NavLink to='/team' className='text-lg font-semibold'>Team</NavLink>
               </li>
-              <li className="py-10 px-5">
+              <li className="py-10 px-2 lg:px-5">
                 <NavLink to='/service' className='text-lg font-semibold'>Service</NavLink>
               </li>
-              <li className="py-10 px-5">
+              <li className="py-10 px-2 lg:px-5">
                 <NavLink to='/projects' className='text-lg font-semibold'>Projects</NavLink>
               </li>
-              <li className="py-10 px-5">
+              <li className="py-10 px-2 lg:px-5">
                 <NavLink to='/testimonials' className='text-lg font-semibold'>Testimonials</NavLink>
               </li>
-              <li className="py-8 px-5">
+              <li className="py-8 px-2 lg:px-5">
                 <button className="btn btn-outline btn-primary">
                   <NavLink to=''>Login</NavLink>
                 </button>
               </li>
-              <li className="py-8 px-5">
+              <li className="py-8 px-2 lg:px-5">
                 <button className="btn btn-secondary">
                   <NavLink to=''>Register</NavLink>
                 </button>
