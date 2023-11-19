@@ -60,32 +60,42 @@ export const workListCountcard = [
         img: 'work/Work1.png'}
 ]
 
-    
+export const featured = [
+    {
+    title: "Featured Project",
+    subtitle: "We provide the Perfect Solution to your business growth"
+    }
+]
 
-export const FeaturedData = {
-    Featured:{
+export const featuredData = [
 
-        heading: "Featured Project",
-        subHeading: "We provide the Perfect Solution to your business growth",
-        subtitle: "Redesign channel website landng page",
-        title: "App Design - June 20, 2022", 
-       
-    },
-    FeaturedCard:{
-
-        img:'image/Mask.png', 
-        subtitle: "App Redesign",
-
-        img2:'image/Mask1.png',
-    
-        img3:'image/Mask2.png',
+        {
+        img:'featured-product/Mask.png',
+        title: "App Redesign",
+        subtitle: "App Design - June 20, 2022"
+        },
+        {
+        img:'featured-product/Mask1.png',
+        title: "Redesign channel website landng page",
+        subtitle: "App Design - June 20, 2022"
+        },
+        {
+        img:'featured-product/Mask2.png',
+        title: "Redesign channel website landng page",
+        subtitle: "App Design - June 20, 2022"
+        },
+        {
+        img:'featured-product/Mask3.png',
+        title: "Redesign channel website landng page",
+        subtitle: "App Design - June 20, 2022"
+        },
+        {
+        img:'featured-product/Mask4.png',
+        title: "Redesign channel website landng page",
+        subtitle: "App Design - June 20, 2022"
+        },
         
-        img4:'image/Mask3.png',
-        
-        img5:'image/Mask4.png',
-        
-    },
-}
+]
 
 
 // team page data ========================

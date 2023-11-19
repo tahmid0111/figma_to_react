@@ -16,19 +16,19 @@ const Header = () => {
 
             <ul className="flex float-right">
               <li className="py-10 px-2 lg:px-5">
-                <NavLink to='/' className='text-lg font-semibold'>Home</NavLink>
+                <NavLink to='/' className={({ isActive }) => isActive? "active text-lg font-semibold": 'text-lg font-semibold'}>Home</NavLink>
               </li>
               <li className="py-10 px-2 lg:px-5">
-                <NavLink to='/team' className='text-lg font-semibold'>Team</NavLink>
+                <NavLink to='/team' className={({ isActive }) => isActive? "active text-lg font-semibold": 'text-lg font-semibold'}>Team</NavLink>
               </li>
               <li className="py-10 px-2 lg:px-5">
-                <NavLink to='/service' className='text-lg font-semibold'>Service</NavLink>
+                <NavLink to='/service' className={({ isActive }) => isActive? "active text-lg font-semibold": 'text-lg font-semibold'}>Service</NavLink>
               </li>
               <li className="py-10 px-2 lg:px-5">
-                <NavLink to='/projects' className='text-lg font-semibold'>Projects</NavLink>
+                <NavLink to='/projects' className={({ isActive }) => isActive? "active text-lg font-semibold": 'text-lg font-semibold'}>Projects</NavLink>
               </li>
               <li className="py-10 px-2 lg:px-5">
-                <NavLink to='/testimonials' className='text-lg font-semibold'>Testimonials</NavLink>
+                <NavLink to='/testimonials' className={({ isActive }) => isActive? "active text-lg font-semibold": 'text-lg font-semibold'}>Testimonials</NavLink>
               </li>
               <li className="py-8 px-2 lg:px-5">
                 <button className="btn btn-outline btn-primary">

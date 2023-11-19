@@ -10,8 +10,8 @@ const WorkList = () => {
     <div className='container mx-auto py-10'>
         <div>
         {
-            workList.map((item) =>
-                <div className=''>
+            workList.map((item, i) =>
+                <div className='' key={i}>
                     <h1 className='text-orange-500 font-semibold'>{item.heading}</h1>
                     <h1 className='text-2xl font-bold w-[30%] pt-8 pb-[100px]'>{item.subHeading}</h1>
                 </div>
