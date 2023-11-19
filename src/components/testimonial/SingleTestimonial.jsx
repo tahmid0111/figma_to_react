@@ -7,7 +7,7 @@ const SingleTestimonial = (props) => {
       <img src={imgSrc} alt="" />
       <p className='py-3'>{review}</p>
       <h2 className='font-bold text-xl pb-3'>{name}</h2>
-      <p>{designation}</p>
+      <p className='text-md'>{designation}</p>
     </div>
   )
 }
