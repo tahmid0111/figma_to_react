@@ -9,7 +9,7 @@ const Service = () => {
     <Layout>
         <div className='container mx-auto'>
             <h1 className='text-xl font-bold py-5 text-orange-500'>ALL PROJECT</h1>
-            <p className='text-2xl w-[60%] pb-5'>Better Agency/SEO Solution At Your Fingertips</p>
+            <p className='text-2xl w-[60%] pb-5'>We Provide BestWeb design services</p>
         </div>
         <div className='container mx-auto grid grid-cols-12 py-20 gap-5'>
           {
