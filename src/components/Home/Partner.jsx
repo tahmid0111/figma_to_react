@@ -17,7 +17,7 @@ const Partner = () => {
             <div className="col-span-4 lg:col-span-1 mx-auto">
                 <img src='Notion.png' alt="notion" />
             </div>
-            <div className="col-span-4 lg:col-span-1 flex justify-center">
+            <div className="col-span-4 lg:col-span-1 mx-auto">
                 <img src='Slack.png' alt="slack" />
             </div>
         </div>
