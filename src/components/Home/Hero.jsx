@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className="hero-area py-10 bg-orange-500">
-        <div className="container mx-auto grid grid-cols-12">
+        <div className="container mx-auto px-5 grid grid-cols-12">
           <div className="col-span-6">
             <h1 className='text-[50px] font-bold w-[80%] pt-10'>Increase Your Customers Loyalty and Satisfaction</h1>
             <p className='text-lg font-semibold w-[75%] py-5'>We help businesses like yours earn more customers, standout from competitors,  make more money</p>
